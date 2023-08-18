@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            background-image: url('content/images/pexcel4.png');
+            background-size: 100% 100%;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #0000;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: #fff;
+        }
+
+        label {
+            color: #fff;
+        }
+
+        button {
+            color: #fff;
+            background-color: #eb6426;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form class="login-form">
+            <div class="form-group">
+                <label for="username"><b>Login with Email & Password</b></label>
+                <button type="button" onclick="window.location.href = 'https://OTTTEKS.b2clogin.com/OTTTEKS.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_pexcel-Emailsignup&client_id=3ce62818-3262-4c62-b027-a3a270fea970&nonce=defaultNonce&redirect_uri=https%3A%2F%2Flocalhost%3A7176%2Fhome.html&scope=openid&response_type=id_token&prompt=login';">Click</button>
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="username"><b>Login with UserId & Password</b></label>
+                <button type="button" onclick="window.location.href = 'https://OTTTEKS.b2clogin.com/OTTTEKS.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_pexcel-userid-signup&client_id=3ce62818-3262-4c62-b027-a3a270fea970&nonce=defaultNonce&redirect_uri=https%3A%2F%2Flocalhost%3A7176%2Fhome.html&scope=openid&response_type=id_token&prompt=login';">Click</button>
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="username"><b>Login with Phone number & OTP</b></label>
+                <button type="button" onclick="window.location.href = 'https://OTTTEKS.b2clogin.com/OTTTEKS.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_pexcel-phonesignup&client_id=3ce62818-3262-4c62-b027-a3a270fea970&nonce=defaultNonce&redirect_uri=https%3A%2F%2Flocalhost%3A7176%2Fhome.html&scope=openid&response_type=id_token&prompt=login';">Click</button>
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="username"><b>Login with Phone number/Email & OTP</b></label>
+                <button type="button" onclick="window.location.href = 'https://OTTTEKS.b2clogin.com/OTTTEKS.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_pexcel-phoneoremail-signup&client_id=3ce62818-3262-4c62-b027-a3a270fea970&nonce=defaultNonce&redirect_uri=https%3A%2F%2Flocalhost%3A7176%2Fhome.html&scope=openid&response_type=id_token&prompt=login';">Click</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
